@@ -5,7 +5,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/yabsambaye/test-jenkins.git'
+        git 'https://github.com/PaJeng/webapp.git'
       }
     }
   }
