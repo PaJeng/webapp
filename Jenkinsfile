@@ -8,5 +8,10 @@ pipeline {
         git 'https://github.com/PaJeng/webapp.git'
       }
     }
+    stage('Déploiement_Qualif') {
+      steps {
+        
+      }
+    }
   }
 }
