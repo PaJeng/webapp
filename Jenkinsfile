@@ -1,0 +1,12 @@
+pipeline {
+  agent any
+
+  stages {
+
+    stage('Checkout Source') {
+      steps {
+        git 'https://github.com/yabsambaye/test-jenkins.git'
+      }
+    }
+  }
+}
